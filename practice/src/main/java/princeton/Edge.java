@@ -20,6 +20,9 @@ public class Edge implements Comparable<Edge> {
         return v;
     }
 
+    public double weight() {
+        return weight;
+    }
 
     @Override
     public int compareTo(Edge o) {

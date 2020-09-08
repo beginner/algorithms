@@ -27,4 +27,8 @@ public class EdgeWeightedGraph {
         return adj[v];
     }
 
+    public int V() {
+        return V;
+    }
+
 }
